@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(121, 36, 92);
+ }
+ 
+ h1 {
+     background-color: rgb(147, 238, 56);
+     padding: 20px;
+     border: 20px solid rgb(12, 12, 12);
+     margin: top 150px;
+ }
+ /* instruction for index html */
+ /* control forward slash allows me to make notes */
+ .box {
+     height: 100px;
+     width: 100px;
+     /* margin: auto; */
+     padding: 5px;
+     border: 3px solid rgb(12, 12, 12);
+     display: inline-block;
+     /* margin: -4px; */
+     /*  -4px takes away margin space*/
+ }
+ 
+ .red {
+     background-color: rgb(223, 41, 77);
+ }
+ 
+ .yellow {
+     background-color: rgb(105, 105, 27);
+ }
+ 
+ .green {
+     background-color: rgb(35, 168, 35);
+ }
+ 
+ .grey {
+     background-color: rgb(36, 28, 28);
+ }
+
+/* instructions for navbar html */
+ ul {
+     list-style-type: none;
+     background-color: rgb(17, 156, 152);
+ }
+
+ul li {
+    display: inline-block;
+    padding-right: 14px;
+    background-color: rgb(212, 212, 226);
+    padding: 10px;
+} 
+/* gets rid of underline in link */
+ul li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+ul li a:hover {
+    color: rgb(236, 231, 223);
+}
+
+ul li:hover {
+    background-color: rgb(214, 156, 47);
+}
+
+/* changes text color only within a */
+/* a {
+    color: rgb(29, 4, 4);
+} */
+
+/* ol {
+    background-color: rgb(177, 98, 41);
+    list-style-type: none;
+} */
+
+/* ol li {
+    color: rgb(211, 201, 201);
+} */
